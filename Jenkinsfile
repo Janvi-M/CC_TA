@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ -o PES2UG22CS231 main/hell.cpp'
+                sh 'g++ -o PES2UG22CS231 main/hello.cpp'
                 echo 'Build stage completed successfully'
             }
         }
